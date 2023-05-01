@@ -9,6 +9,7 @@ GET     /hello                      controllers.HelloController.sayHello
 GET     /hi/:name                   controllers.HelloController.sayHi(name: String)
 GET     /movies                     controllers.MovieController.getMovies
 GET     /persons                    controllers.PersonController.getPersons
+POST    /movies                     controllers.MovieController.saveMovies
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

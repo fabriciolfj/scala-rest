@@ -1,0 +1,17 @@
+[
+  {
+    "title": "The Princess Bride",
+    "year": 1987,
+    "rating": 8.5
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "rating": 8.8
+  },
+  {
+    "title": "Firefly",
+    "year": 2002,
+    "rating": 9.2
+  }
+]

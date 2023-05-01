@@ -1,9 +1,7 @@
 package model
 
 case class Person(name: String, address: Address)
-
 case class Address(street: String, city: String, state: String, postalCode: String)
-
 
 object WritesConverters {
   import play.api.libs.json._
